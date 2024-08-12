@@ -1,0 +1,758 @@
+.ProductDitalsLeftSidePage {
+  width: 20%;
+}
+
+.containerProductPage {
+  max-width: 4000px;
+  width: 99%;
+  height: 100%;
+  background-color: #ececec;
+}
+
+.Product-Diatls-Page-Part {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.ProductDitalsLeftContainer {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+}
+
+.ProductDitalseMiddleSide {
+  width: 50%;
+}
+
+.ProductDitalsMiddleContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0.6rem;
+}
+
+.ProductDitalsRightSide {
+  width: 28%;
+}
+
+.ProductDitalsRightContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: #ffffff;
+  padding: 0.2rem 0.4rem;
+}
+
+.ProductDitalsLeftConatant {
+  width: 100%;
+  height: 100%;
+  /* display: grid; */
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductDitalsLeftMainImageContainer {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.ProductDitalsLeftMainImage {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ProductDitalsLeftMainImage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.ProductDitalsLeftSubImageContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  margin: auto;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.customA {
+  color: #1a9cb7;
+}
+
+.customA:hover {
+  text-decoration: underline;
+  color: #1a9cb7;
+}
+
+.BrandBorder {
+  border-right: 1px solid #979393;
+}
+
+.ProductDitalsSubImageItem {
+  width: 20%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-right: 1px solid #ddd;
+}
+
+.ProductDitalsSubImageItem > img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.ProductDitalsMiddleContant {
+  width: 98%;
+}
+
+.ProductName {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+}
+
+.ProductName > h3 {
+  font-weight: 600;
+  color: rgb(22, 21, 21);
+  line-height: normal;
+}
+
+.productRatings {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.productRatings > span {
+  font-size: 14px;
+}
+
+.ProductDitalsbrand {
+  width: 100%;
+  display: flex;
+  gap: 0.2rem;
+  padding-top: 0.5rem;
+}
+
+.ProductDitalsbrand > span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.brand {
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+}
+
+.BrandBorder {
+  padding-right: 0.3rem;
+}
+
+.ProductDetalsPrice {
+  width: 100%;
+  padding-right: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+
+.ProductDetalsPrice > h2 {
+  font-weight: 600;
+  padding-right: 0.3rem;
+}
+
+.ProductDitalsQuantity {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.8rem;
+}
+
+.ProductDitalsQuantity > input {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border: 1px solid #bfa8a8;
+  background-color: #ddd;
+  color: #412f2f;
+  font-family: cursive;
+}
+
+.ProductDitalsAdcardbutton {
+  width: 100%;
+  display: flex;
+  gap: 0.4rem;
+  padding-top: 1rem;
+}
+
+.ProductDitalsAdcardbutton > button {
+  width: 50%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.5rem 0rem;
+  background-color: #d25c4d;
+  outline: none;
+  border: navajowhite;
+  color: #ffffff;
+  border: 1px solid #a8a882;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.ProductRightDeleveri {
+  width: 100%;
+}
+
+.ProductRightDeleveriItemTittle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.DeliveryIons > svg {
+  cursor: pointer;
+}
+
+.Hidden {
+  display: none;
+}
+
+.ProductRightDeleveriItemContant {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 0;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  margin-top: 0.3rem;
+}
+.ProductRightDeleveriItemContant .CHANGE {
+  font-size: 12px;
+  font-weight: 500;
+  color: blue;
+}
+
+.ProductRightDeleveriItemContantInfo {
+  font-size: 12px;
+}
+
+.ProductRightFreeDeleveriItemTittle > h4,
+.ProductRightFreeDeleveriItemTittle > h5 {
+  font-weight: 600;
+}
+
+.FreeDeliveryInfo {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.FreeDeliveryInfo > a {
+  color: blue;
+  font-weight: 400;
+}
+
+.ProductRightFreeDeleveri {
+  margin-top: 0.5rem;
+}
+
+.ProductRightCashonItemContant {
+  width: 95%;
+  display: flex;
+  gap: 0.8rem;
+  margin: auto;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.ProductRightCashonItemContant > span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.ServicePartProductDitals {
+  margin-top: 0.8rem;
+}
+
+.ProductRightDeleveriItemContantSerbice {
+  width: 95%;
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+  margin-top: 0.3rem;
+}
+
+.ProductRightDeleveriItemContantSerbicefast {
+  display: flex;
+  gap: 0.3rem;
+}
+.ProductRightDeleveriItemContantSerbicefast .ProductRightDeleveriItemContantInfoService {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ProductRightDeleveriItemContantInfoServiceContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductRightDeleveriItemContantInfoServiceContent > .CHANGE {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.ProductRightDeleveriItemContantInfoServiceWarenty {
+  padding-top: 0.5rem;
+}
+
+.ToggoleTabOpenContainer {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  width: 70%;
+  background-color: #fff;
+  z-index: 9999;
+  box-shadow: inset 0 -3em 3em rgba(0, 200, 0, 0.3), 0 0 0 2px white, 0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+.ToggoleTabOpenContainerService {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  width: 70%;
+  background-color: #fff;
+  z-index: 9999;
+  box-shadow: inset 0 -3em 3em rgba(0, 200, 0, 0.3), 0 0 0 2px white, 0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+.ToggoleTabOpenContantItem {
+  padding: 1rem 0.3rem;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.ToggoleTabOpenContantTittle {
+  width: 95%;
+  padding: 0.6rem 0.3rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.ToggoleTabOpenContantItemTittlea {
+  color: blue;
+}
+
+.ToggoleTabOpenContantItemAll {
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.FindOut {
+  padding: 0.2rem 0.5rem;
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+.FindOut {
+  display: flex;
+  flex-direction: column;
+}
+
+.Review-Description-section {
+  padding-top: 2vh;
+}
+
+.Description-Reviewpart {
+  padding: 0rem 5rem;
+}
+
+.Description-Rivew-Conatiner {
+  width: 100%;
+  height: 100%;
+}
+
+.SectionTittleSectionHeaderpart {
+  width: 100%;
+  height: 7vh;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.Middlepart-Rivew-DescriptionContainerMiddle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 2%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.MiddleFastPartDesRivewContainer {
+  width: 78%;
+  height: 88vh;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.MiddleSecendrandomConatiner {
+  width: 220px;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.Description-Rivew-Conatnt {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ReviewBtnContainer {
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ReviewPartBtnOpen {
+  align-content: c;
+}
+.ReviewPartBtnOpen button {
+  outline: navajowhite;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  color: black;
+  cursor: pointer;
+}
+
+.DescriptioninfoTExtAll {
+  width: 95%;
+  margin: auto;
+  /* padding: 1rem 0rem; */
+  display: flex;
+  height: 95%;
+  /* margin: auto; */
+  overflow-y: scroll;
+  margin-top: 0.8rem;
+  scroll-behavior: smooth;
+}
+.DescriptioninfoTExtAll h4 {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.ActiveColor {
+  background: #fe3d00;
+  color: #ddd;
+}
+
+.ActiveColors {
+  background: #fe3d00;
+  color: #ddd;
+}
+
+.FDast {
+  width: 50%;
+  height: 20vh;
+  background-color: #1a9cb7;
+}
+
+.Descriptiontext {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Descriptiontext span {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 55;
+}
+
+.MiddleSecendContant {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  padding: 0.5rem 0rem;
+  gap: 0.5rem;
+  scroll-behavior: smooth;
+}
+
+.MiddleSecendContant::-webkit-scrollbar {
+  width: 2px;
+}
+
+.ProductCard {
+  width: 150px;
+  height: 195px;
+  margin: auto;
+  box-shadow: 1px 0px 23px #ceb8b8;
+}
+
+.Card {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.ProductImage {
+  width: 75%;
+  height: 60%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.ProductImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.ProductName {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  padding-top: 0.5rem;
+}
+.ProductName h4 {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.ProductPrice {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.ProductPrice span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.ProductPrice .CurrentProduct {
+  opacity: 0.9;
+}
+.ProductPrice .RegularPRice {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 4000px) {
+  .ProductDitalsLeftSidePage {
+    width: 24%;
+  }
+  .ProductDitalseMiddleSide {
+    width: 50%;
+  }
+  .ProductDitalsRightSide {
+    width: 22%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .ToggoleTabOpenContainer {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .Description-Reviewpart {
+    padding: 0rem 10rem;
+  }
+}
+@media screen and (max-width: 2550px) {
+  .ProductDitalsLeftSidePage {
+    width: 24%;
+  }
+  .ProductDitalseMiddleSide {
+    width: 50%;
+  }
+  .ProductDitalsRightSide {
+    width: 22%;
+  }
+  .ToggoleTabOpenContainer {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .Description-Reviewpart {
+    padding: 0rem 10rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .ProductDitalseMiddleSide {
+    width: 46%;
+  }
+  .ToggoleTabOpenContainer {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .Description-Reviewpart {
+    padding: 0rem 5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ProductDitalseMiddleSide {
+    width: 43%;
+  }
+  .ProductDitalsLeftSidePage {
+    width: 26%;
+  }
+  .ProductDitalsRightSide {
+    width: 24%;
+  }
+  .ToggoleTabOpenContainer {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 284%;
+  }
+  .Description-Reviewpart {
+    padding: 0rem 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ProductDitalseMiddleSide {
+    width: 62%;
+  }
+  .ProductDitalsLeftSidePage {
+    width: 35%;
+  }
+  .ProductDitalsRightSide {
+    width: 100%;
+  }
+  .ToggoleTabOpenContainer {
+    position: absolute;
+    top: 90%;
+    right: 13px;
+    width: 260%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 59%;
+    right: 35px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .MiddleFastPartDesRivewContainer {
+    width: 100%;
+  }
+  .MiddleSecendrandomConatiner {
+    display: none;
+  }
+  .Middlepart-Rivew-DescriptionContainerMiddle {
+    height: 42vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .ProductDitalseMiddleSide {
+    width: 100%;
+  }
+  .ProductName > h3 {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  .ProductDitalsLeftSidePage {
+    width: 100%;
+  }
+  .ProductDitalsRightSide {
+    width: 100%;
+  }
+  .ToggoleTabOpenContainer {
+    width: 90%;
+    top: 78%;
+  }
+  .ToggoleTabOpenContainerService {
+    position: absolute;
+    top: 59%;
+    right: 35px;
+    width: 50%;
+  }
+  .Description-Reviewpart {
+    padding: 0rem 1rem;
+  }
+}/*# sourceMappingURL=ProductDitalsPage.css.map */
