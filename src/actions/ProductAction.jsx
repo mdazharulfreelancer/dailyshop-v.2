@@ -6,7 +6,7 @@ export const getHomeJustForYouPc = (page) => async (dispatch) => {
     dispatch({type: GET_ALL_PRODUCT_HOME_JUST_FOR_YOU_PC_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/home-just-for-products?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/home-just-for-products?page=${page}`)
 
         dispatch({
             type: GET_ALL_PRODUCT_HOME_JUST_FOR_YOU_PC_SUCCESS,
@@ -26,7 +26,7 @@ export const getHomeJustForYouPhoneLeft = (page) => async (dispatch) => {
     dispatch({type:GET_ALL_PRODUCT_JUSTFORYOU_PHONE_LEFT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/get-all-product-just-for-you-phone-left?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/get-all-product-just-for-you-phone-left?page=${page}`)
 
         dispatch({
             type: GET_ALL_PRODUCT_JUSTFORYOU_PHONE_LEFT_SUCCESS,
@@ -45,7 +45,7 @@ export const getNewProductPhone = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_NEW_PRODUCT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/new-product-phone?page=${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/new-product-phone?page=${resultpage}`)
 
         dispatch({
             type: GET_ALL_NEW_PRODUCT_SUCCESS,
@@ -66,7 +66,7 @@ export const getCategoryProductPhone = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_CATEGORY_PRODUCT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/category-products?page=${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/category-products?page=${resultpage}`)
 
         dispatch({
             type: GET_ALL_CATEGORY_PRODUCT_SUCCESS,
@@ -88,7 +88,7 @@ export const getAllNewLowPricePhone = (page) => async (dispatch) => {
     dispatch({type :GET_ALL_LOW_PRICE_PRODUCT_RIGHT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/low-price-products-phone?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/low-price-products-phone?page=${page}`)
 
         dispatch({
             type: GET_ALL_LOW_PRICE_PRODUCT_RIGHT_SUCCESS,
@@ -108,7 +108,7 @@ export const getFreeDalivaryPhone = (page) => async (dispatch) => {
     dispatch({type :GET_PRODUCT_FREE_DELEVARI_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/freedalivary-product-phone?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/freedalivary-product-phone?page=${page}`)
 
         dispatch({
             type: GET_PRODUCT_FREE_DELEVARI_SUCCESS,
@@ -127,7 +127,7 @@ export const getHomeJustForYouProductPc = (page) => async (dispatch) => {
     dispatch({type:GET_JUST_FOR_PRODUCT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/home-just-for-products-pc?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/home-just-for-products-pc?page=${page}`)
 
         dispatch({
             type: GET_JUST_FOR_PRODUCT_SUCCESS,
@@ -147,7 +147,7 @@ export const getCategoryProductPC = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_CATEGORY_PRODUCT_PC_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/get-category-product-pc?page=${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/get-category-product-pc?page=${resultpage}`)
 
         dispatch({
             type: GET_ALL_CATEGORY_PRODUCT_PC_SUCCESS,
@@ -167,7 +167,7 @@ export const getNewProductPC = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_NEW_PRODUCT_PC_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/get-new-product-pc?page=${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/get-new-product-pc?page=${resultpage}`)
 
         dispatch({
             type: GET_ALL_NEW_PRODUCT_PC_SUCCESS,
@@ -188,7 +188,7 @@ export const getHomeJustForYouPhoneRight = (page) => async (dispatch) => {
     dispatch({type:GET_ALL_PRODUCT_JUSTFORYOU_PHONE_RIGHT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/get-all-product-just-for-you-phone-right?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/get-all-product-just-for-you-phone-right?page=${page}`)
 
         dispatch({
             type: GET_ALL_PRODUCT_JUSTFORYOU_PHONE_RIGHT_SUCCESS,
@@ -207,7 +207,7 @@ export const getProductDitalsIdName = (id, name) => async (dispatch) => {
     dispatch({type: GET_PRODUCT_DETAILS_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/product-ditals/${id}/${name}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/product-ditals/${id}/${name}`)
 
         dispatch({
             type:  GET_PRODUCT_DETAILS_SUCCESS,
@@ -226,7 +226,7 @@ export const getProductFlashSalePc = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_PRODUCT_FLASH_SALE_PC_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/flash-sale/${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/flash-sale/${resultpage}`)
 
         dispatch({
             type: GET_ALL_PRODUCT_FLASH_SALE_PC_SUCCESS,
@@ -245,7 +245,7 @@ export const getProductFlashSalePcPage = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_PRODUCT_FLASH_SALE_PC_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/flash-sale-pc-page`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/flash-sale-pc-page`)
 
         dispatch({
             type: GET_ALL_PRODUCT_FLASH_SALE_PC_SUCCESS,
@@ -264,7 +264,7 @@ export const getNewProductRightPhone = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_NEW_PRODUCT_RIGHT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/new-product-right?page=${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/new-product-right?page=${resultpage}`)
 
         dispatch({
             type: GET_ALL_NEW_PRODUCT_RIGHT_SUCCESS,
@@ -284,7 +284,7 @@ export const getProductFlashSalePhone = (resultpage) => async (dispatch) => {
     dispatch({type :GET_ALL_PRODUCT_FLASH_SALE_PHONE_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/flash-sale-phone/${resultpage}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/flash-sale-phone/${resultpage}`)
 
         dispatch({
             type: GET_ALL_PRODUCT_FLASH_SALE_PHONE_SUCCESS,
@@ -303,7 +303,7 @@ export const getAllNewLowPricePhonea = (page) => async (dispatch) => {
     dispatch({type :GET_ALL_LOW_PRICE_PRODUCT_REQUEST})
 
     try {
-        const {data} = await axios.get(`/api/v1/low-price-products?page=${page}`)
+        const {data} = await axios.get(`https://dailyshop-azharul-backend.vercel.app/api/v1/low-price-products?page=${page}`)
 
         dispatch({
             type: GET_ALL_LOW_PRICE_PRODUCT_SUCCESS,
